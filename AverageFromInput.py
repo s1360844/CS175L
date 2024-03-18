@@ -6,7 +6,7 @@ def main():
     total = 0
     count = 0
 
-    with open('numbers.txt', 'r') as file:
+    with open('/Users/jaredmishen/Desktop/numbers.txt', 'r') as file:
         for line in file:
             number = int(line)
             count += 1
